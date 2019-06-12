@@ -1,0 +1,24 @@
+{
+  "name": "klassefest-backend",
+  "version": "1.0.0",
+  "description": "Backend for klassefest",
+  "main": "app.js",
+  "scripts": {
+    "serve": "nodemon ./app.js",
+    "upgrade-interactive": "npm-check --update"
+  },
+  "author": "Dan Michael O. Heggø <danmichaelo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@natlibfi/marc-record": "^4.0.4",
+    "@natlibfi/marc-record-serializers": "^4.1.0",
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonpath": "^1.0.2",
+    "node-zoom2": "^0.3.0"
+  },
+  "devDependencies": {
+    "npm-check": "^5.9.0"
+  }
+}
